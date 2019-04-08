@@ -1,3 +1,10 @@
+/**
+ * Java OOP. Lesson 01.
+ *
+ * @author Oleg Khrulov
+ * @version dated 04.04.2019
+ */
+
 package Lesson01;
 
 public class MainL01Task01 {
