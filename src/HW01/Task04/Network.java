@@ -16,20 +16,27 @@
 
 package HW01.Task04;
 
-public class MainHW01Task04 {
+import java.util.HashSet;
 
-    public static void main(String[] args) {
-        Network network = new Network();
-        String otherNumber = "+380503332212";
+public class Network {
+    private HashSet<String> networkBase;
 
-        Phone phoneMy = new Phone("+380505552211");
-        Phone phoneFriend = new Phone("+380503332211");
-        phoneMy.registerTheNumberInTheNetwork(phoneMy.getNumberPhone(), network);
-        phoneFriend.registerTheNumberInTheNetwork(phoneFriend.getNumberPhone(), network);
+    public Network() {
+        this.networkBase = new HashSet<String>();
+    }
 
-        System.out.printf(phoneMy.callTheNumber(phoneFriend.getNumberPhone(), network), phoneFriend.getNumberPhone());
-        System.out.printf(phoneMy.callTheNumber(otherNumber, network), otherNumber);
+    public HashSet<String> getNetworkBase() {
+        return networkBase;
+    }
 
-        System.out.println(network);
+    public void setNetworkBase(HashSet<String> networkBase) {
+        this.networkBase = networkBase;
+    }
+
+    @Override
+    public String toString() {
+        return "Network{" +
+                "networkBase=" + networkBase +
+                '}';
     }
 }
