@@ -4,7 +4,6 @@
     <exclude-output />
     <javadoc-paths>
       <root url="file://$MODULE_DIR$" />
-      <root url="file://$MODULE_DIR$/src/HW01/Task01" />
     </javadoc-paths>
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
