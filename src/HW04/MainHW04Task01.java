@@ -2,7 +2,7 @@
  * Java OOP. Home Work 04.
  *
  * @author Oleg Khrulov
- * @version dated 14.04.2019
+ * @version dated 20.04.2019
  */
 
 /*
