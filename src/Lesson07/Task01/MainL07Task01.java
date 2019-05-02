@@ -5,7 +5,7 @@
  * @version dated 02.05.2019
  */
 
-package Lesson07;
+package Lesson07.Task01;
 
 public class MainL07Task01 {
     public static void main(String[] args) {
